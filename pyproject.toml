@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cg-live"
+version = "0.1.0"
+description = "Interactive Computer Graphics algorithms"
+requires-python = ">=3.10"
+dependencies = [
+    "pygame-ce>=2.5"
+]
+
+[tool.setuptools]
+py-modules = ["main"]
