@@ -15,8 +15,9 @@
     #include <cstdlib>
     using namespace std;
 #else
-    #include <iostream.h>
-    #include <math.h>
+    #include <iostream>
+    #include <cmath>
+    using namespace std;
 #endif
 
 #if CURRENT_MODE == MODE_CG
